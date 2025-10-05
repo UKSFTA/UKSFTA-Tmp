@@ -1,0 +1,59 @@
+name: Arma
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check for BOM
+        uses: arma-actions/bom-check@master
+
+      - name: Checkout the source code
+        uses: actions/checkout@v4
+
+      - name: Validate Config
+        run: python3 tools/config_style_checker.py
+
+      - name: Validate Stringtables
+        run: python3 tools/stringtable_validator.py
+
+      - name: Validate SQF
+        run: python3 tools/sqf_validator.py
+
+      - name: Validate Return Types
+        run: python3 tools/return_checker.py
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the source code
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Update submodules to correct branch
+        run: git submodule update --remote --checkout
+
+      - name: Setup HEMTT
+        uses: arma-actions/hemtt@v1
+        with:
+          annotate: false
+
+      - name: Run HEMTT build
+        run: hemtt build
+
+      - name: Rename build folder
+        run: mv .hemttout/build .hemttout/@uksfta
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: uksfta-${{ github.sha }}-nobin
+          path: .hemttout/@*
+          include-hidden-files: true
