@@ -1,0 +1,42 @@
+name: Arma 3 Tools
+
+permissions:
+  contents: read
+
+on:
+  workflow_dispatch:
+    inputs:
+      toolsUrl:
+       description: URL to hosted ZIP file with Arma 3 Tools
+       required: true
+
+jobs:
+  install_arma3_tools:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Install Arma 3 Tools
+      shell: pwsh
+      env:
+        ARMA3_TOOLS_URL: ${{ github.event.inputs.toolsUrl }}
+      run: |
+        if (-not ($IsWindows -or $IsLinux)) {
+          throw "Unsupported OS"
+        }
+
+        Invoke-WebRequest "$env:ARMA3_TOOLS_URL" -OutFile arma3tools.zip
+
+        if ($IsWindows) {
+          Expand-7ZipArchive -Path arma3tools.zip -DestinationPath C:\arma3tools
+          
+          regedit /S "${{ github.action_path }}\arma3tools.reg"
+
+          (Get-Content C:\arma3tools\BinMake\binMakeRules.txt) -replace 'O:\\Arma3CommunityTools', 'C:\arma3tools' | Set-Content C:\arma3tools\BinMake\binMakeRules.txt
+          choco install directx
+        } elseif ($IsLinux) {
+          Invoke-Expression "unzip arma3tools.zip -d ~/.local/share/arma3tools"
+
+          sudo apt-get update
+          sudo apt-get install -y wine64
+        }
+
+        Remove-Item arma3tools.zip
