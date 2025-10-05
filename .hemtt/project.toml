@@ -1,0 +1,30 @@
+name = "UKSF Taskforce Alpha Temp Mods"
+author = "UKSF Taskforce Alpha Team"
+prefix = "UKSFTA-Temp"
+mainprefix = "z"
+
+[files]
+include = [
+    "*.dll",
+    "*.so",
+    "mod.cpp",
+    "README.md",
+    "AUTHORS.txt",
+    "LICENSE",
+    "meta.cpp",
+    "addons/*.pbo",
+]
+
+[version]
+path = "addons/main/script_version.hpp"
+git_hash = 0
+
+keyname = "{{prefix}}_{{version}}"
+signame = "{{prefix}}_{{version}}-{{git \"id 8\"}}"
+
+releasebuild = [
+    "@zip ace3_{{semver.major}}.{{semver.minor}}.{{semver.patch}}"
+]
+
+[header_exts]
+version= "{{git \"id 8\"}}"
