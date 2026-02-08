@@ -1,1 +1,1 @@
-/ext/Development/UKSFTA-Tmp/.uksf_tools/tools/search_unused_privates.py
+../.uksf_tools/tools/search_unused_privates.py
