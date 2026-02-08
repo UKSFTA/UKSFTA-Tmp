@@ -1,0 +1,19 @@
+[h1]UKSF Task Force Alpha - [PROJECT NAME][/h1]
+
+[b]Modular component for the UKSFTA Ecosystem.[/b]
+This project provides specialized assets/functions for UKSFTA operations. Optimized for production use and maintained via the UKSFTA automation pipeline.
+
+[h2]🗺 Included Content[/h2]
+[list]
+{{INCLUDED_CONTENT}}
+[/list]
+
+[h2]🛠 Requirements[/h2]
+This pack is intended for use by [b]UKSFTA members[/b] and mission makers. 
+
+[h2]📡 About UKSFTA[/h2]
+UKSF Task Force Alpha is a tactical realism unit focused on high-quality Arma 3 simulation. 
+[url=https://uksfta.github.io/]Visit our Website[/url]
+
+[hr]
+[i]Automated deployment via UKSFTA DevOps Pipeline[/i]
