@@ -238,7 +238,7 @@ class CfgSounds {
 	class helmetHitSFX04
 	{
 		name = "hhit4";
-		sound[] = {"\z\uksfta\ballistic_impact\sounds\raw_headshot4..wav", 1, 1, 100};
+		sound[] = {"\z\uksfta\ballistic_impact\sounds\raw_headshot4.wav", 1, 1, 100};
 		titles[] = {{}};
 	};
 	class helmetHitSFX05
