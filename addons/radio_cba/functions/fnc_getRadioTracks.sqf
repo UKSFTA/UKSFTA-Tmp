@@ -1,0 +1,22 @@
+
+/*
+ * Author: Jonpas
+ * Gets radio tracks classnames from config.
+ *
+ * Arguments:
+ * None
+ *
+ * Return Value:
+ * Radio Tracks <ARRAY>
+ *
+ * Example:
+ * _tracks = call tac_radios_fnc_getRadioTracks;
+ *
+ * Public: No
+ */
+
+private _tracks = ("true" configClasses (configFile >> "CfgSounds")) apply {toLower (configName _x)};
+_tracks = _tracks select {_x find "radio_cba" != -1 && {_x find "_quiet" == -1} && {_x find "_loud" == -1}};
+
+
+_tracks

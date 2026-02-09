@@ -1,0 +1,154 @@
+////////////////////////////////////////////////////////////////////
+//DeRap: mainmenu.vr\mission.sqm
+//Produced from mikero's Dos Tools Dll version 10.04
+//https://mikero.bytex.digital/Downloads
+//'now' is Tue Dec 16 19:39:51 2025 : 'file' last modified on Sun Oct 12 09:34:42 2025
+////////////////////////////////////////////////////////////////////
+
+#define _ARMA_
+
+version = 54;
+class EditorData
+{
+	moveGridStep = 1.0;
+	angleGridStep = 0.2617994;
+	scaleGridStep = 1.0;
+	autoGroupingDist = 10.0;
+	toggles = 1;
+	class ItemIDProvider
+	{
+		nextID = 4;
+	};
+	class Camera
+	{
+		pos[] = {-1.6373641,11.266441,-3.0586114};
+		dir[] = {0.061912518,-0.69643104,0.714948};
+		up[] = {0.06008413,0.71762365,0.69383436};
+		aside[] = {0.9962714,3.7252903e-009,-0.08627434};
+	};
+};
+sourceName = "Outro_Torikago";
+addons[] = {"A3_Characters_F_AoW"};
+class AddonsMetaData
+{
+	class List
+	{
+		items = 1;
+		class Item0
+		{
+			className = "A3_Characters_F_AoW";
+			name = "Arma 3 Art of War - Characters and Clothing";
+			author = "Bohemia Interactive";
+			url = "https://www.arma3.com";
+		};
+	};
+};
+dlcs[] = {"AoW"};
+randomSeed = 9117886;
+class ScenarioData
+{
+	author = "UKSF Taskforce Alpha";
+};
+class Intro
+{
+	class Intel
+	{
+		timeOfChanges = 1800.0002;
+		startWeather = 0.0;
+		startWind = 0.1;
+		startWaves = 0.1;
+		forecastWeather = 0.0;
+		forecastWind = 0.1;
+		forecastWaves = 0.1;
+		forecastLightnings = 0.1;
+		year = 2035;
+		day = 28;
+		hour = 13;
+		minute = 37;
+		startFogDecay = 0.014;
+		forecastFogDecay = 0.014;
+	};
+	class Entities
+	{
+		items = 1;
+		class Item0
+		{
+			dataType = "Group";
+			side = "West";
+			class Entities
+			{
+				items = 1;
+				class Item0
+				{
+					dataType = "Object";
+					class PositionInfo
+					{
+						position[] = {0.0,5.001439,0.050000012};
+					};
+					side = "West";
+					flags = 7;
+					class Attributes
+					{
+						isPlayer = 1;
+					};
+					id = 3;
+					type = "B_Officer_Parade_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property = "speaker";
+							expression = "_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									singleType = "STRING";
+									value = "Male07ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property = "pitch";
+							expression = "_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									singleType = "SCALAR";
+									value = 0.98;
+								};
+							};
+						};
+						nAttributes = 2;
+					};
+				};
+			};
+			class Attributes{};
+			id = 2;
+		};
+	};
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges = 1800.0002;
+		startWeather = 0.0;
+		startWind = 0.1;
+		startWaves = 0.1;
+		forecastWeather = 0.0;
+		forecastWind = 0.1;
+		forecastWaves = 0.1;
+		forecastLightnings = 0.1;
+		wavesForced = 1;
+		windForced = 1;
+		year = 2035;
+		day = 28;
+		hour = 13;
+		minute = 37;
+		startFogDecay = 0.014;
+		forecastFogDecay = 0.014;
+	};
+};
