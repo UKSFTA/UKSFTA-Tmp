@@ -19,3 +19,7 @@ include = [
 
 workshop_id = "0"
 workshop_tags = ["Mod", "Addon"]
+
+[hemtt.include]
+"include" = ""
+"include/x/cba/addons/main" = "x/cba/addons/main"
