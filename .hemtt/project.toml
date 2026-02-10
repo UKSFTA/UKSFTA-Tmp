@@ -4,7 +4,7 @@ prefix = "uksfta"
 mainprefix = "z"
 
 [version]
-path = "addons/tmp/script_version.hpp"
+path = "addons/main/script_version.hpp"
 
 [files]
 include = [
