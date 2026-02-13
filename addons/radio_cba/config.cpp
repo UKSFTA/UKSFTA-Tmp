@@ -1,18 +1,18 @@
 class CfgPatches
 {
-	class UKSFTA_Radio_CBA
-	{
-		name="[UKSF] Radio (CBA)";
-		units[]={ "UKSFTA_Radio" };
-		weapons[]={};
-		requiredVersion=1.8200001;
-		requiredAddons[]=
-		{
-			"A3_Structures_F", 
-			"ace_interact_menu",
-			"cba_main"
-		};
-	};
+    class UKSFTA_Radio_CBA
+    {
+        name="[UKSF] Radio (CBA)";
+        units[]={ "UKSFTA_Radio" };
+        weapons[]={};
+        requiredVersion=1.8200001;
+        requiredAddons[]=
+        {
+            "A3_Structures_F",
+            "ace_interact_menu",
+            "cba_main"
+        };
+    };
 };
 
 class CfgEditorCategories
@@ -33,7 +33,7 @@ class CfgEditorSubcategories
 
 class CfgVehicles
 {
-	class Land_FMradio_F;
+    class Land_FMradio_F;
     class UKSFTA_Radio: Land_FMradio_F
     {
         displayname = "[UKSF] Radio";

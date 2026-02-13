@@ -1,4 +1,3 @@
-
 /*
  * Author: DaC, Jonpas
  * Stops playing music in the vehicle and removes the radio.

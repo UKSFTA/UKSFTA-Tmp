@@ -107,32 +107,32 @@ class CfgVehicles
                         class vol100 { displayName = "Loud"; statement = "[_target, 100] call UKSFTA_Music_fnc_mightyCustomPlaylist"; };
                     };
                 };
-				class broadcastSpeakers
-				{
-				    displayName = "Broadcast to Nearby Speakers";
-				    distance = 2;
-				    condition = "_target call UKSFTA_Music_fnc_broadcastSpeakers";
-				    exceptions[] = {};
+                class broadcastSpeakers
+                {
+                    displayName = "Broadcast to Nearby Speakers";
+                    distance = 2;
+                    condition = "_target call UKSFTA_Music_fnc_broadcastSpeakers";
+                    exceptions[] = {};
 
-				    class radius10
-				    {
-				        displayName = "10 meters";
-				        distance = 2;
-				        statement = "[_target, _player, 10] call UKSFTA_Music_fnc_broadcastSpeakers;";
-				    };
-				    class radius30
-				    {
-				        displayName = "30 meters";
-				        distance = 2;
-				        statement = "[_target, _player, 30] call UKSFTA_Music_fnc_broadcastSpeakers;";
-				    };
-				    class radius50
-				    {
-				        displayName = "50 meters";
-				        distance = 2;
-				        statement = "[_target, _player, 50] call UKSFTA_Music_fnc_broadcastSpeakers;";
-				    };
-				};
+                    class radius10
+                    {
+                        displayName = "10 meters";
+                        distance = 2;
+                        statement = "[_target, _player, 10] call UKSFTA_Music_fnc_broadcastSpeakers;";
+                    };
+                    class radius30
+                    {
+                        displayName = "30 meters";
+                        distance = 2;
+                        statement = "[_target, _player, 30] call UKSFTA_Music_fnc_broadcastSpeakers;";
+                    };
+                    class radius50
+                    {
+                        displayName = "50 meters";
+                        distance = 2;
+                        statement = "[_target, _player, 50] call UKSFTA_Music_fnc_broadcastSpeakers;";
+                    };
+                };
             };
         };
     };
@@ -146,15 +146,15 @@ class CfgFunctions
         class functions
         {
             class radioOff { file = "z\uksfta\addons\radio\data\scripts\radioOff.sqf"; };
-			class radioOn { file = "z\uksfta\addons\radio\data\scripts\radioOn.sqf"; };
+            class radioOn { file = "z\uksfta\addons\radio\data\scripts\radioOn.sqf"; };
             class playPlaylist { file = "z\uksfta\addons\radio\data\scripts\playPlaylist.sqf"; };
             class broadcastSpeakers { file = "z\uksfta\addons\radio\data\scripts\broadcastSpeakers.sqf"; };
-	        class mightyRockPlaylist { file = "z\uksfta\addons\radio\data\scripts\playlists\mightyRockPlaylist.sqf"; };
-	        class mightyChillPlaylist { file = "z\uksfta\addons\radio\data\scripts\playlists\mightyChillPlaylist.sqf"; };
-	        class mightyVeryChillPlaylist { file = "z\uksfta\addons\radio\data\scripts\playlists\mightyVeryChillPlaylist.sqf"; };
-	        class mightyElectroPlaylist { file = "z\uksfta\addons\radio\data\scripts\playlists\mightyElectroPlaylist.sqf"; };
-	        class mightySEREPlaylist { file = "z\uksfta\addons\radio\data\scripts\playlists\mightySEREPlaylist.sqf"; };
-	        class mightyCustomPlaylist { file = "z\uksfta\addons\radio\data\scripts\playlists\mightyCustomPlaylist.sqf"; };
+            class mightyRockPlaylist { file = "z\uksfta\addons\radio\data\scripts\playlists\mightyRockPlaylist.sqf"; };
+            class mightyChillPlaylist { file = "z\uksfta\addons\radio\data\scripts\playlists\mightyChillPlaylist.sqf"; };
+            class mightyVeryChillPlaylist { file = "z\uksfta\addons\radio\data\scripts\playlists\mightyVeryChillPlaylist.sqf"; };
+            class mightyElectroPlaylist { file = "z\uksfta\addons\radio\data\scripts\playlists\mightyElectroPlaylist.sqf"; };
+            class mightySEREPlaylist { file = "z\uksfta\addons\radio\data\scripts\playlists\mightySEREPlaylist.sqf"; };
+            class mightyCustomPlaylist { file = "z\uksfta\addons\radio\data\scripts\playlists\mightyCustomPlaylist.sqf"; };
         };
     };
 };

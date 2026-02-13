@@ -1,4 +1,3 @@
-
 /*
  * Author: Jonpas
  * Gets radio tracks classnames from config.

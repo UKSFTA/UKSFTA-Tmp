@@ -9,15 +9,15 @@
 
 class CfgPatches
 {
-	class UKSFTA
-	{
-		units[] = {};
-		weapons[] = {};
-		requiredVersion = 0.1;
-		requiredAddons[] = {"A3_Data_F_Enoch_Loadorder"};
-		author = "Anytature";
-		worlds[] = {};
-	};
+    class UKSFTA
+    {
+        units[] = {};
+        weapons[] = {};
+        requiredVersion = 0.1;
+        requiredAddons[] = {"A3_Data_F_Enoch_Loadorder"};
+        author = "Anytature";
+        worlds[] = {};
+    };
 };
 class Attributes;
 class RscStandardDisplay;
@@ -73,130 +73,130 @@ class RscButtonMenuSteam;
 class RscButtonTextOnly;
 class RscMainMenuSpotlight: RscControlsGroupNoScrollbars
 {
-	show = 0;
-	onLoad = "";
+    show = 0;
+    onLoad = "";
 };
 class RscDisplayMain: RscStandardDisplay
 {
-	class controls
-	{
-		class BackgroundSpotlight: RscPicture
-		{
-			show = 0;
-			onload = "";
-		};
-		class BackgroundSpotlightLeft: BackgroundSpotlight
-		{
-			show = 0;
-			onload = "";
-		};
-		class BackgroundSpotlightRight: BackgroundSpotlightLeft
-		{
-			show = 0;
-			onload = "";
-		};
-		class Spotlight1: RscMainMenuSpotlight
-		{
-			idc = 1021;
-			show = 0;
-			onload = "";
-		};
-		class Spotlight2: RscText
-		{
-			idc = 1020;
-			show = 0;
-			onload = "";
-		};
-		class Spotlight3: RscMainMenuSpotlight
-		{
-			idc = 1022;
-			show = 0;
-			onload = "";
-		};
-		class SpotlightPrev: RscActivePictureKeepAspect
-		{
-			idc = 1060;
-			show = 0;
-			onload = "";
-		};
-		class SpotlightNext: SpotlightPrev
-		{
-			show = 0;
-			onload = "";
-		};
-		class logo: RscActivePicture
-		{
-			text = "z\uksfta\addons\menu\assets\icon_ca.paa";
-			url = "";
-			tooltip = "";
-			onButtonClick = "";
-			onload = "";
-		};
-		class logoApex: logo
-		{
-			show = 0;
-			onload = "";
-			text = "";
-		};
-		class infomods: RscControlsGroupNoHScrollbars
-		{
-			show = 0;
-		};
-		class infoDLCsOwned: infomods
-		{
-			show = 1;
-		};
-		class infoDLCs: infoDLCsOwned
-		{
-			show = 1;
-		};
-		class infoNews: infomods
-		{
-			show = 1;
-		};
-		class infoVersion: infoNews
-		{
-			show = 0;
-		};
-	};
+    class controls
+    {
+        class BackgroundSpotlight: RscPicture
+        {
+            show = 0;
+            onload = "";
+        };
+        class BackgroundSpotlightLeft: BackgroundSpotlight
+        {
+            show = 0;
+            onload = "";
+        };
+        class BackgroundSpotlightRight: BackgroundSpotlightLeft
+        {
+            show = 0;
+            onload = "";
+        };
+        class Spotlight1: RscMainMenuSpotlight
+        {
+            idc = 1021;
+            show = 0;
+            onload = "";
+        };
+        class Spotlight2: RscText
+        {
+            idc = 1020;
+            show = 0;
+            onload = "";
+        };
+        class Spotlight3: RscMainMenuSpotlight
+        {
+            idc = 1022;
+            show = 0;
+            onload = "";
+        };
+        class SpotlightPrev: RscActivePictureKeepAspect
+        {
+            idc = 1060;
+            show = 0;
+            onload = "";
+        };
+        class SpotlightNext: SpotlightPrev
+        {
+            show = 0;
+            onload = "";
+        };
+        class logo: RscActivePicture
+        {
+            text = "z\uksfta\addons\menu\assets\icon_ca.paa";
+            url = "";
+            tooltip = "";
+            onButtonClick = "";
+            onload = "";
+        };
+        class logoApex: logo
+        {
+            show = 0;
+            onload = "";
+            text = "";
+        };
+        class infomods: RscControlsGroupNoHScrollbars
+        {
+            show = 0;
+        };
+        class infoDLCsOwned: infomods
+        {
+            show = 1;
+        };
+        class infoDLCs: infoDLCsOwned
+        {
+            show = 1;
+        };
+        class infoNews: infomods
+        {
+            show = 1;
+        };
+        class infoVersion: infoNews
+        {
+            show = 0;
+        };
+    };
 };
 class CfgWorlds
 {
-	class CAWorld;
-	class Altis: CAWorld
-	{
-		cutscenes[] = {"mymainmenu"};
-	};
-	class Stratis: CAWorld
-	{
-		cutscenes[] = {"mymainmenu"};
-	};
-	class Enoch: CAWorld
-	{
-		cutscenes[] = {"mymainmenu"};
-	};
-	class hellanmaa: CAWorld
-	{
-		cutscenes[] = {"mymainmenu"};
-	};
-	class hellanmaaw: CAWorld
-	{
-		cutscenes[] = {"mymainmenu"};
-	};
-	class VR: CAWorld
-	{
-		cutscenes[] = {"mymainmenu"};
-	};
-	initWorld = "VR";
-	demoWorld = "VR";
+    class CAWorld;
+    class Altis: CAWorld
+    {
+        cutscenes[] = {"mymainmenu"};
+    };
+    class Stratis: CAWorld
+    {
+        cutscenes[] = {"mymainmenu"};
+    };
+    class Enoch: CAWorld
+    {
+        cutscenes[] = {"mymainmenu"};
+    };
+    class hellanmaa: CAWorld
+    {
+        cutscenes[] = {"mymainmenu"};
+    };
+    class hellanmaaw: CAWorld
+    {
+        cutscenes[] = {"mymainmenu"};
+    };
+    class VR: CAWorld
+    {
+        cutscenes[] = {"mymainmenu"};
+    };
+    initWorld = "VR";
+    demoWorld = "VR";
 };
 class CfgMissions
 {
-	class Cutscenes
-	{
-		class mymainmenu
-		{
-			directory = "z\uksfta\addons\menu\mainmenu.vr";
-		};
-	};
+    class Cutscenes
+    {
+        class mymainmenu
+        {
+            directory = "z\uksfta\addons\menu\mainmenu.vr";
+        };
+    };
 };

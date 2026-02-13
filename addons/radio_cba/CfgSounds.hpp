@@ -24,7 +24,7 @@ class CfgSounds {
     SOUND(track4,Voodoo_Chile)
     SOUND(track5,Crazy_Train)
     SOUND(track6,Master_Of_Puppets)
-	SOUND(track7,Thunderstruck)
+    SOUND(track7,Thunderstruck)
     SOUND(track8,Kickstart_My_Heart)
     SOUND(track9,YUP)
     SOUND(track10,Seek_and_Destroy)

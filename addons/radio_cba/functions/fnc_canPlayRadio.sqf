@@ -1,4 +1,3 @@
-
 /*
  * Author: Jonpas
  * Check if vehicle or static radio can played.

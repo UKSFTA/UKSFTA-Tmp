@@ -1,4 +1,3 @@
-
 /*
  * Author: Jonpas
  * Check if vehicle radio can be stopped.

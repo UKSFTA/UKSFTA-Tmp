@@ -1,4 +1,3 @@
-
 /*
  * Author: DaC, Jonpas
  * Attaches a radio to a vehicle and starts playing the selected track on it.
