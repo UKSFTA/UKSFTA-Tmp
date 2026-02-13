@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="AFM">
     <Package name="Radio_CBA">
-        <Key ID="STR_AFM_Radio_CBA_PlayRadio">
-            <English>Pump up the jams</English>
-            <Spanish>Escuchar Radio</Spanish>
-            <German>Radio starten</German>
-            <French>Allumer la radio</French>
-        </Key>
-        <Key ID="STR_AFM_Radio_CBA_Tracks">
-            <English>Tracks</English>
-            <German>Titel</German>
-            <French>Pistes</French>
-        </Key>
-        <Key ID="STR_AFM_Radio_CBA_Volume">
-            <English>Volume</English>
-            <German>Lautstärke</German>
-            <French>Volume</French>
-        </Key>
-        <Key ID="STR_AFM_Radio_CBA_Quiet">
-            <English>Quiet</English>
-            <German>Leise</German>
-            <French>Faible</French>
+        <Key ID="STR_AFM_Radio_CBA_Loud">
+            <English>Blast that shit</English>
+            <French>Élevé</French>
+            <German>Laut</German>
         </Key>
         <Key ID="STR_AFM_Radio_CBA_Normal">
             <English>Normal</English>
-            <German>Normal</German>
             <French>Normal</French>
+            <German>Normal</German>
         </Key>
-        <Key ID="STR_AFM_Radio_CBA_Loud">
-            <English>Blast that shit</English>
-            <German>Laut</German>
-            <French>Élevé</French>
+        <Key ID="STR_AFM_Radio_CBA_PlayRadio">
+            <English>Pump up the jams</English>
+            <French>Allumer la radio</French>
+            <Spanish>Escuchar Radio</Spanish>
+            <German>Radio starten</German>
+        </Key>
+        <Key ID="STR_AFM_Radio_CBA_Quiet">
+            <English>Quiet</English>
+            <French>Faible</French>
+            <German>Leise</German>
         </Key>
         <Key ID="STR_AFM_Radio_CBA_StopRadio">
             <English>Stop Radio</English>
+            <French>Arrêter la radio</French>
             <Spanish>Detener Radio</Spanish>
             <German>Radio stoppen</German>
-            <French>Arrêter la radio</French>
+        </Key>
+        <Key ID="STR_AFM_Radio_CBA_Tracks">
+            <English>Tracks</English>
+            <French>Pistes</French>
+            <German>Titel</German>
+        </Key>
+        <Key ID="STR_AFM_Radio_CBA_Volume">
+            <English>Volume</English>
+            <French>Volume</French>
+            <German>Lautstärke</German>
         </Key>
     </Package>
 </Project>

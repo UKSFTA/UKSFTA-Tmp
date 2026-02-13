@@ -3,7 +3,7 @@ class CfgPatches
     class UKSFTA_Objects
     {
         version = "1.0";
-        units[] = { "UKSFTA_Radio" };
+        units[] = {"vol10","vol50","vol100","vol10","vol50","vol100","vol10","vol50","vol100","vol10","vol50","vol100","vol10","vol50","vol100","vol10","vol50","vol100"};
         weapons[] = {};
         requiredVersion = 1.0;
         requiredAddons[] = { "A3_Structures_F", "ace_interact_menu" };
