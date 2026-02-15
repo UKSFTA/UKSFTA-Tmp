@@ -36,9 +36,9 @@ fnc_getBallisticVariables = {
 
     ///    Sound effects for destruction of head mounted display.
     private _hmdSoundEffects = selectRandom [
-        "z\uksfta\ballistic_impact\sounds\nvgbreak1.wav", "z\uksfta\ballistic_impact\sounds\nvgbreak2.wav",
-        "z\uksfta\ballistic_impact\sounds\nvgbreak3.wav", "z\uksfta\ballistic_impact\sounds\nvgbreak4.wav",
-        "z\uksfta\ballistic_impact\sounds\nvgbreak5.wav"
+        "z\z\z\uksfta\addons\tmp\addons\tmp\ballistic_impact\sounds\nvgbreak1.wav", "z\z\z\uksfta\addons\tmp\addons\tmp\ballistic_impact\sounds\nvgbreak2.wav",
+        "z\z\z\uksfta\addons\tmp\addons\tmp\ballistic_impact\sounds\nvgbreak3.wav", "z\z\z\uksfta\addons\tmp\addons\tmp\ballistic_impact\sounds\nvgbreak4.wav",
+        "z\z\z\uksfta\addons\tmp\addons\tmp\ballistic_impact\sounds\nvgbreak5.wav"
     ];
 
     ///    Spark effects upon helmet penetration
@@ -49,26 +49,26 @@ fnc_getBallisticVariables = {
 
     ///    Helmet penetrate sounds
     private _helmetPenetrateSoundEffects = selectRandom [
-        "z\uksfta\ballistic_impact\sounds\headgear1.wav", "z\uksfta\ballistic_impact\sounds\headgear2.wav",
-        "z\uksfta\ballistic_impact\sounds\headgear3.wav", "z\uksfta\ballistic_impact\sounds\headgear4.wav",
-        "z\uksfta\ballistic_impact\sounds\headgear5.wav", "z\uksfta\ballistic_impact\sounds\headgear6.wav",
-        "z\uksfta\ballistic_impact\sounds\headgear7.wav", "z\uksfta\ballistic_impact\sounds\headgear8.wav"
+        "z\z\z\uksfta\addons\tmp\addons\tmp\ballistic_impact\sounds\headgear1.wav", "z\z\z\uksfta\addons\tmp\addons\tmp\ballistic_impact\sounds\headgear2.wav",
+        "z\z\z\uksfta\addons\tmp\addons\tmp\ballistic_impact\sounds\headgear3.wav", "z\z\z\uksfta\addons\tmp\addons\tmp\ballistic_impact\sounds\headgear4.wav",
+        "z\z\z\uksfta\addons\tmp\addons\tmp\ballistic_impact\sounds\headgear5.wav", "z\z\z\uksfta\addons\tmp\addons\tmp\ballistic_impact\sounds\headgear6.wav",
+        "z\z\z\uksfta\addons\tmp\addons\tmp\ballistic_impact\sounds\headgear7.wav", "z\z\z\uksfta\addons\tmp\addons\tmp\ballistic_impact\sounds\headgear8.wav"
     ];
 
     ///    Helmet hit sounds
     private _helmetHitSoundEffects = selectRandom [
-        "z\uksfta\ballistic_impact\sounds\raw_headshot1.wav", "z\uksfta\ballistic_impact\sounds\raw_headshot2.wav",
-        "z\uksfta\ballistic_impact\sounds\raw_headshot3.wav", "z\uksfta\ballistic_impact\sounds\raw_headshot4.wav",
-        "z\uksfta\ballistic_impact\sounds\raw_headshot5.wav"
+        "z\z\z\uksfta\addons\tmp\addons\tmp\ballistic_impact\sounds\raw_headshot1.wav", "z\z\z\uksfta\addons\tmp\addons\tmp\ballistic_impact\sounds\raw_headshot2.wav",
+        "z\z\z\uksfta\addons\tmp\addons\tmp\ballistic_impact\sounds\raw_headshot3.wav", "z\z\z\uksfta\addons\tmp\addons\tmp\ballistic_impact\sounds\raw_headshot4.wav",
+        "z\z\z\uksfta\addons\tmp\addons\tmp\ballistic_impact\sounds\raw_headshot5.wav"
     ];
 
     ///    HS flesh sound
     private _headshotFleshEffects = selectRandom [
-        "z\uksfta\ballistic_impact\sounds\headshot_pumpkin01.wav", "z\uksfta\ballistic_impact\sounds\headshot_pumpkin02.wav",
-        "z\uksfta\ballistic_impact\sounds\headshot_pumpkin03.wav", "z\uksfta\ballistic_impact\sounds\headshot_pumpkin04.wav",
-        "z\uksfta\ballistic_impact\sounds\headshot_pumpkin05.wav", "z\uksfta\ballistic_impact\sounds\headshot_pumpkin06.wav",
-        "z\uksfta\ballistic_impact\sounds\headshot_pumpkin07.wav", "z\uksfta\ballistic_impact\sounds\headshot_pumpkin08.wav",
-        "z\uksfta\ballistic_impact\sounds\headshot_pumpkin09.wav"
+        "z\z\z\uksfta\addons\tmp\addons\tmp\ballistic_impact\sounds\headshot_pumpkin01.wav", "z\z\z\uksfta\addons\tmp\addons\tmp\ballistic_impact\sounds\headshot_pumpkin02.wav",
+        "z\z\z\uksfta\addons\tmp\addons\tmp\ballistic_impact\sounds\headshot_pumpkin03.wav", "z\z\z\uksfta\addons\tmp\addons\tmp\ballistic_impact\sounds\headshot_pumpkin04.wav",
+        "z\z\z\uksfta\addons\tmp\addons\tmp\ballistic_impact\sounds\headshot_pumpkin05.wav", "z\z\z\uksfta\addons\tmp\addons\tmp\ballistic_impact\sounds\headshot_pumpkin06.wav",
+        "z\z\z\uksfta\addons\tmp\addons\tmp\ballistic_impact\sounds\headshot_pumpkin07.wav", "z\z\z\uksfta\addons\tmp\addons\tmp\ballistic_impact\sounds\headshot_pumpkin08.wav",
+        "z\z\z\uksfta\addons\tmp\addons\tmp\ballistic_impact\sounds\headshot_pumpkin09.wav"
     ];
 
     ///    Gore particle effects

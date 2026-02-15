@@ -126,7 +126,7 @@ class RscDisplayMain: RscStandardDisplay
         };
         class logo: RscActivePicture
         {
-            text = "z\uksfta\addons\menu\assets\icon_ca.paa";
+            text = "z\z\z\uksfta\addons\tmp\addons\tmp\addons\menu\assets\icon_ca.paa";
             url = "";
             tooltip = "";
             onButtonClick = "";
@@ -196,7 +196,7 @@ class CfgMissions
     {
         class mymainmenu
         {
-            directory = "z\uksfta\addons\menu\mainmenu.vr";
+            directory = "z\z\z\uksfta\addons\tmp\addons\tmp\addons\menu\mainmenu.vr";
         };
     };
 };

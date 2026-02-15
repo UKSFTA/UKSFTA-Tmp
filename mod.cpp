@@ -1,9 +1,9 @@
 ﻿name = "UKSF Task Force Alpha - Tmp Modpack";
 author = "UKSF Taskforce Alpha Team";
-logo = "\z\uksfta\addons\main\data\icon_128_ca.paa";
-logoOver = "\z\uksfta\addons\main\data\icon_128_highlight_ca.paa";
-logoSmall = "\z\uksfta\addons\main\data\icon_64_ca.paa";
+logo = "\z\z\z\uksfta\addons\tmp\addons\tmp\addons\main\data\icon_128_ca.paa";
+logoOver = "\z\z\z\uksfta\addons\tmp\addons\tmp\addons\main\data\icon_128_highlight_ca.paa";
+logoSmall = "\z\z\z\uksfta\addons\tmp\addons\tmp\addons\main\data\icon_64_ca.paa";
 overview = "UKSF Taskforce Alpha";
-picture = "\z\uksfta\addons\main\data\title_co.paa";
+picture = "\z\z\z\uksfta\addons\tmp\addons\tmp\addons\main\data\title_co.paa";
 tooltip = "UKSFTA";
 tooltipOwned = "UKSF Taskforce Alpha";
